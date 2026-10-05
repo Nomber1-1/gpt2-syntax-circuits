@@ -1,0 +1,1301 @@
+{
+  "valid_ablations": [
+    {
+      "layer": 0,
+      "head": 0,
+      "performance_drop": 0.29657202885474687,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.3832024428369305,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 0,
+      "head": 1,
+      "performance_drop": 0.38312342873326055,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.296651042958416,
+      "is_in_circuit": true,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 0,
+      "head": 2,
+      "performance_drop": 0.28230543342637426,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.397469038265303,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 0,
+      "head": 3,
+      "performance_drop": 0.2778524741714383,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.401921997520239,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 0,
+      "head": 4,
+      "performance_drop": 0.2677717782832958,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.412002693408381,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 0,
+      "head": 5,
+      "performance_drop": 0.2576866863686361,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.422087785323041,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 0,
+      "head": 6,
+      "performance_drop": 0.2757136483251313,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.404060823366546,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 0,
+      "head": 7,
+      "performance_drop": 0.29535929509151126,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.384415176600165,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 0,
+      "head": 8,
+      "performance_drop": 0.293845303264665,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.385929168427012,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 0,
+      "head": 9,
+      "performance_drop": 0.30541741553648016,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.374357056155197,
+      "is_in_circuit": true,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 0,
+      "head": 10,
+      "performance_drop": 0.3227320100054329,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.357042461686244,
+      "is_in_circuit": true,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 0,
+      "head": 11,
+      "performance_drop": 0.2958499818672369,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.38392448982444,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 1,
+      "head": 0,
+      "performance_drop": 0.32562712607560335,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.354147345616074,
+      "is_in_circuit": true,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 1,
+      "head": 1,
+      "performance_drop": 0.33038804707703767,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.349386424614639,
+      "is_in_circuit": true,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 1,
+      "head": 2,
+      "performance_drop": 0.2926669290036331,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.387107542688044,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 1,
+      "head": 3,
+      "performance_drop": 0.31255208636507575,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.367222385326601,
+      "is_in_circuit": true,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 1,
+      "head": 4,
+      "performance_drop": 0.294965922832489,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.384808548859188,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 1,
+      "head": 5,
+      "performance_drop": 0.30378427549644754,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.37599019619523,
+      "is_in_circuit": true,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 1,
+      "head": 6,
+      "performance_drop": 0.3015208656405225,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.378253606051154,
+      "is_in_circuit": true,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 1,
+      "head": 7,
+      "performance_drop": 0.3041198018156452,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.375654669876032,
+      "is_in_circuit": true,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 1,
+      "head": 8,
+      "performance_drop": 0.29970485045586104,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.3800696212358154,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 1,
+      "head": 9,
+      "performance_drop": 0.29523154394126233,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.384542927750415,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 1,
+      "head": 10,
+      "performance_drop": 0.5318284785306012,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.147945993161076,
+      "is_in_circuit": true,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 1,
+      "head": 11,
+      "performance_drop": 0.29719653394487167,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.382577937746805,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 2,
+      "head": 0,
+      "performance_drop": 0.3033361118516804,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.376438359839996,
+      "is_in_circuit": true,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 2,
+      "head": 1,
+      "performance_drop": 0.2941162144696271,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.38565825722205,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 2,
+      "head": 2,
+      "performance_drop": 0.30032130156034303,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.379453170131334,
+      "is_in_circuit": true,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 2,
+      "head": 3,
+      "performance_drop": 0.31394409986189853,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.365830371829778,
+      "is_in_circuit": true,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 2,
+      "head": 4,
+      "performance_drop": 0.29965896370970174,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.380115507981976,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 2,
+      "head": 5,
+      "performance_drop": 0.3092088625754839,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.370565609116193,
+      "is_in_circuit": true,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 2,
+      "head": 6,
+      "performance_drop": 0.2962464153030772,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.3835280563886,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 2,
+      "head": 7,
+      "performance_drop": 0.2904779116312663,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.38929656006041,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 2,
+      "head": 8,
+      "performance_drop": 0.30388784408569336,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.375886627605984,
+      "is_in_circuit": true,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 2,
+      "head": 9,
+      "performance_drop": 0.2963266380039262,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.38344783368775,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 2,
+      "head": 10,
+      "performance_drop": 0.29608548276218366,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.383688988929493,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 2,
+      "head": 11,
+      "performance_drop": 0.3043070435523987,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.375467428139278,
+      "is_in_circuit": true,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 3,
+      "head": 0,
+      "performance_drop": 0.290732361652233,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.389042110039444,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 3,
+      "head": 1,
+      "performance_drop": 0.2942261416235088,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.385548330068168,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 3,
+      "head": 2,
+      "performance_drop": 0.2972637885882531,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.3825106831034235,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 3,
+      "head": 3,
+      "performance_drop": 0.28430728559140805,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.3954671861002685,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 3,
+      "head": 4,
+      "performance_drop": 0.28461092784080977,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.395163543850867,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 3,
+      "head": 5,
+      "performance_drop": 0.29804015895466746,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.381734312737009,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 3,
+      "head": 6,
+      "performance_drop": 0.3169308223842103,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.362843649307466,
+      "is_in_circuit": true,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 3,
+      "head": 7,
+      "performance_drop": 0.29923795182027935,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.380536519871398,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 3,
+      "head": 8,
+      "performance_drop": 0.3598313022542883,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.319943169437389,
+      "is_in_circuit": true,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 3,
+      "head": 9,
+      "performance_drop": 0.29941591804410206,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.380358553647575,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 3,
+      "head": 10,
+      "performance_drop": 0.29083564546373153,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.388938826227945,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 3,
+      "head": 11,
+      "performance_drop": 0.2897669827496564,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.390007488942021,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 4,
+      "head": 0,
+      "performance_drop": 0.2796165781256593,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.400157893566018,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 4,
+      "head": 1,
+      "performance_drop": 0.3231368329789903,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.356637638712686,
+      "is_in_circuit": true,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 4,
+      "head": 2,
+      "performance_drop": 0.28592327641852106,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.393851195273156,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 4,
+      "head": 3,
+      "performance_drop": 0.33272669197600563,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.3470477797156715,
+      "is_in_circuit": true,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 4,
+      "head": 4,
+      "performance_drop": 0.2828267591970938,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.396947712494583,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 4,
+      "head": 5,
+      "performance_drop": 0.30043449225249114,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.379339979439186,
+      "is_in_circuit": true,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 4,
+      "head": 6,
+      "performance_drop": 0.27462817121435096,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.405146300477326,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 4,
+      "head": 7,
+      "performance_drop": 0.27859946533485697,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.40117500635682,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 4,
+      "head": 8,
+      "performance_drop": 0.2911983949166757,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.388576076775001,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 4,
+      "head": 9,
+      "performance_drop": 0.2899092995090249,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.3898651721826525,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 4,
+      "head": 10,
+      "performance_drop": 0.29354644704748084,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.386228024644196,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 4,
+      "head": 11,
+      "performance_drop": 0.31090511068885707,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.36886936100282,
+      "is_in_circuit": true,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 5,
+      "head": 0,
+      "performance_drop": 0.20384765995873344,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.475926811732943,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 5,
+      "head": 1,
+      "performance_drop": 0.20389289767653854,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.475881574015139,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 5,
+      "head": 2,
+      "performance_drop": 0.2033254482128002,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.476449023478876,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 5,
+      "head": 3,
+      "performance_drop": 0.21378065332954313,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.465993818362134,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 5,
+      "head": 4,
+      "performance_drop": 0.22487348244513994,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.454900989246537,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 5,
+      "head": 5,
+      "performance_drop": 0.22646781691798457,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.453306654773693,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 5,
+      "head": 6,
+      "performance_drop": 0.23380194475621352,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.4459725269354635,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 5,
+      "head": 7,
+      "performance_drop": 0.23373928040633968,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.446035191285337,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 5,
+      "head": 8,
+      "performance_drop": 0.22934506116089998,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.450429410530777,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 5,
+      "head": 9,
+      "performance_drop": 0.21934146498456414,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.460433006707113,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 5,
+      "head": 10,
+      "performance_drop": 0.2717563075783812,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.408018164113296,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 5,
+      "head": 11,
+      "performance_drop": 0.2658415429386092,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.413932928753068,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 6,
+      "head": 0,
+      "performance_drop": 0.40595496583867957,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.273819505852997,
+      "is_in_circuit": true,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 6,
+      "head": 1,
+      "performance_drop": 0.38542299064589136,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.294351481045785,
+      "is_in_circuit": true,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 6,
+      "head": 2,
+      "performance_drop": 0.28696861384827416,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.392805857843403,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 6,
+      "head": 3,
+      "performance_drop": 0.28795810099001284,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.391816370701664,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 6,
+      "head": 4,
+      "performance_drop": 0.30690607170999784,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.372868399981679,
+      "is_in_circuit": true,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 6,
+      "head": 5,
+      "performance_drop": 0.2648032859519676,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.414971185739709,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 6,
+      "head": 6,
+      "performance_drop": 0.25541558898525474,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.424358882706422,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 6,
+      "head": 7,
+      "performance_drop": 0.25699563526812896,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.422778836423548,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 6,
+      "head": 8,
+      "performance_drop": 0.23167687580909258,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.448097595882585,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 6,
+      "head": 9,
+      "performance_drop": 0.23177544202333616,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.447999029668341,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 6,
+      "head": 10,
+      "performance_drop": 0.23223875334233413,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.447535718349343,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 6,
+      "head": 11,
+      "performance_drop": 0.23560635028062044,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.444168121411057,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 7,
+      "head": 0,
+      "performance_drop": 0.31117580113587556,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.3685986705558015,
+      "is_in_circuit": true,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 7,
+      "head": 1,
+      "performance_drop": 0.2875414924857057,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.392232979205971,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 7,
+      "head": 2,
+      "performance_drop": 0.28774983205913024,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.392024639632547,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 7,
+      "head": 3,
+      "performance_drop": 0.2877180848592593,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.392056386832418,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 7,
+      "head": 4,
+      "performance_drop": 0.41219920067139615,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.267575271020281,
+      "is_in_circuit": true,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 7,
+      "head": 5,
+      "performance_drop": 0.2948349412576652,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.3849395304340115,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 7,
+      "head": 6,
+      "performance_drop": 0.2957091184309971,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.38406535326068,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 7,
+      "head": 7,
+      "performance_drop": 0.29799837389110045,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.381776097800577,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 7,
+      "head": 8,
+      "performance_drop": 0.3202149588384746,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.3595595128532025,
+      "is_in_circuit": true,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 7,
+      "head": 9,
+      "performance_drop": 0.2998716021761482,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.379902869515528,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 7,
+      "head": 10,
+      "performance_drop": 0.29984250848675953,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.379931963204918,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 7,
+      "head": 11,
+      "performance_drop": 0.2871069746252931,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.392667497066384,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 8,
+      "head": 0,
+      "performance_drop": 0.29806381464004517,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.381710657051632,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 8,
+      "head": 1,
+      "performance_drop": 0.2984573988266933,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.3813170728649835,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 8,
+      "head": 2,
+      "performance_drop": 0.2981966586760533,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.381577813015624,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 8,
+      "head": 3,
+      "performance_drop": 0.30096638791355085,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.378808083778126,
+      "is_in_circuit": true,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 8,
+      "head": 4,
+      "performance_drop": 0.29463302500454,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.385141446687137,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 8,
+      "head": 5,
+      "performance_drop": 0.4090146142759441,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.270759857415733,
+      "is_in_circuit": true,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 8,
+      "head": 6,
+      "performance_drop": 0.2930071449574129,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.386767326734264,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 8,
+      "head": 7,
+      "performance_drop": 0.29306414539431347,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.386710326297363,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 8,
+      "head": 8,
+      "performance_drop": 0.2959922037006896,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.383782267990988,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 8,
+      "head": 9,
+      "performance_drop": 0.2979520500442128,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.381822421647464,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 8,
+      "head": 10,
+      "performance_drop": 0.2808876059673451,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.398886865724332,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 8,
+      "head": 11,
+      "performance_drop": 0.28408916055420297,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.395685311137474,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 9,
+      "head": 0,
+      "performance_drop": 0.29647326984523253,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.383301201846445,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 9,
+      "head": 1,
+      "performance_drop": 0.2948954473307103,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.384879024360966,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 9,
+      "head": 2,
+      "performance_drop": 0.2948677561901234,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.384906715501554,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 9,
+      "head": 3,
+      "performance_drop": 0.2926249047856272,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.38714956690605,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 9,
+      "head": 4,
+      "performance_drop": 0.2926505399338993,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.3871239317577775,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 9,
+      "head": 5,
+      "performance_drop": 0.2929198020770226,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.386854669614654,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 9,
+      "head": 6,
+      "performance_drop": 0.29086457579224195,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.388909895899435,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 9,
+      "head": 7,
+      "performance_drop": 0.29975132588986997,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.380023145801807,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 9,
+      "head": 8,
+      "performance_drop": 0.30053123500612045,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.379243236685556,
+      "is_in_circuit": true,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 9,
+      "head": 9,
+      "performance_drop": 0.3004135666070161,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.379360905084661,
+      "is_in_circuit": true,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 9,
+      "head": 10,
+      "performance_drop": 0.31580251308135043,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.3639719586103265,
+      "is_in_circuit": true,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 9,
+      "head": 11,
+      "performance_drop": 0.3015724943007952,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.378201977390882,
+      "is_in_circuit": true,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 10,
+      "head": 0,
+      "performance_drop": 0.2378416289517909,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.441932842739886,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 10,
+      "head": 1,
+      "performance_drop": 0.23702245509182965,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.442752016599847,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 10,
+      "head": 2,
+      "performance_drop": 0.23726477961481354,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.442509692076864,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 10,
+      "head": 3,
+      "performance_drop": 0.23473169479841066,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.445042776893266,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 10,
+      "head": 4,
+      "performance_drop": 0.23363267713122898,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.446141794560448,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 10,
+      "head": 5,
+      "performance_drop": 0.21814716892477906,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.461627302766898,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 10,
+      "head": 6,
+      "performance_drop": 0.21795602345172269,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.4618184482399545,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 10,
+      "head": 7,
+      "performance_drop": 0.21887363769389964,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.460900833997777,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 10,
+      "head": 8,
+      "performance_drop": 0.21854282014163923,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.461231651550038,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 10,
+      "head": 9,
+      "performance_drop": 0.2905009197600094,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.389273551931668,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 10,
+      "head": 10,
+      "performance_drop": 0.29172312771832504,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.388051343973352,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 10,
+      "head": 11,
+      "performance_drop": 0.2923765771182967,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.387397894573381,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 11,
+      "head": 0,
+      "performance_drop": 0.22018888923856947,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.459585582453108,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 11,
+      "head": 1,
+      "performance_drop": 0.22565179253801887,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.454122679153658,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 11,
+      "head": 2,
+      "performance_drop": 0.2239156343318798,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.455858837359797,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 11,
+      "head": 3,
+      "performance_drop": 0.21857940046875565,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.461195071222921,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 11,
+      "head": 4,
+      "performance_drop": 0.20573527724654586,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.474039194445131,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 11,
+      "head": 5,
+      "performance_drop": 0.20738487184783558,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.472389599843841,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 11,
+      "head": 6,
+      "performance_drop": 0.21029202584867124,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.469482445843005,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 11,
+      "head": 7,
+      "performance_drop": 0.2124056985348831,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.467368773156794,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 11,
+      "head": 8,
+      "performance_drop": 0.19618844765203972,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.483586024039637,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 11,
+      "head": 9,
+      "performance_drop": 0.19484642184810874,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.484928049843568,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 11,
+      "head": 10,
+      "performance_drop": 0.24205564275199984,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.437718828939677,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    },
+    {
+      "layer": 11,
+      "head": 11,
+      "performance_drop": 0.24155679455509893,
+      "baseline_diff": 5.679774471691677,
+      "ablated_diff": 5.438217677136578,
+      "is_in_circuit": false,
+      "case_type": "dataset_average"
+    }
+  ],
+  "circuit_size": 34
+}

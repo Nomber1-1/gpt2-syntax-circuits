@@ -1,0 +1,9 @@
+{
+    "metrics": {
+        "baseline_clean": 5.577970479005649,
+        "scrub_outside": 5.416780995733944,
+        "scrub_inside": 2.8565759037011937,
+        "baseline_corrupted": -0.5515630664648833
+    },
+    "circuit_size": 34
+}
